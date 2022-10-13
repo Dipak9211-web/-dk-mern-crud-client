@@ -6,8 +6,60 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-shadow{
+  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
 }
+
+.card-width{
+  width: 60%;
+  margin-top: 18px;
+  padding: 20px;
+
+  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+}
+@media (max-width: 640px) {
+  .card-width {
+    width: 100%;
+    
+    
+  }
+}
+.card-width-add-pd{
+  width: 80%;
+  margin-top: 18px;
+  padding: 20px;
+
+  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+}
+@media (max-width: 640px) {
+  .card-width-add-pd {
+    width: 100%;
+    padding: 0;
+    overflow: scroll;
+  }
+}
+.table-width2{
+  width:100%;
+}
+@media (max-width: 640px) {
+  .table-width2{
+    width: 100%;
+    
+    margin: 0;
+    padding: 4px;
+    
+  }
+}
+
+
+.table-width{
+  
+  width: 100%;
+}
+@media (max-width: 640px) {
+  .table-width {
+    width: 100%;
+    
+  }
+}
+
